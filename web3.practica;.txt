@@ -1,0 +1,60 @@
+Question:
+1) Demonstrate how we can generate ABI and Byte Code by
+compiling a Smart Contract with the help of Web3.js.
+
+Answer: 
+
+To generate the ABI(Application Binary) and Byte Code for a smart contract using web3.js,we'll need the following steps: 
+
+1)Install node.js and npm(Node Package Manager) if not installed.
+
+
+2)Crete a new directory for your project and initialize npm.
+Open a terminal or command prompt and create a new directory for your project.Navigate into the project directory and run the following command-
+
+     npm init -y
+
+
+3)Install web3.js by following the command:
+      
+     npm install web3
+
+
+
+4)Write the smart contract code and compile the Smart Contract(compile.js)
+Create a new file in your project directory
+
+
+
+5)Run the compilation script.
+      node compile.js
+
+
+6)Verify the generated ABI and bytecode in the console output.
+
+
+ 
+Assuming  you have node.js and npm installed, follow these steps:
+
+Step 1: Install necessary Dependencies.
+
+        npm init -y
+        npm install web3
+
+Step 2: Write the Smart Contract.
+Create a file named 'HelloWorld.sol'
+
+Step 3: Compile the Smart Contract and generate ABI and Byte Code.
+
+Create a new javascript file,e.g., 'compileContract.js'
+
+Step 4: Run the Compilation Script
+
+        node compileContract.js
+
+This will  generate two files in the same directory:
+
+  --> HelloWorld.abi.json(containing the ABI)
+
+  --> HelloWorld.bytecode.json(containing the Byte Code) for the Smart Contract.
+
